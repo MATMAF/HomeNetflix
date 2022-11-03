@@ -2,7 +2,11 @@
 HomeNetflix is for Ubuntu.
 
 ## Install
-First, install docker and make it executable:
+First you have to use sudo
+```bash
+sudo su
+```
+Then, install docker and make it executable:
 ```bash
 git clone https://github.com/MATMAF/HomeNetflix.git
 cd HomeNetflix
