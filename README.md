@@ -13,10 +13,10 @@ chmod +x install-docker-ubuntu.sh
 ```
 Now you have to run the containers
 ```bash
-chmod +x installer-homenetflix-ubuntu.sh
+chmod +x install-homenetflix-ubuntu.sh
 ```
 ```sh
-./installer-homenetflix-ubuntu.sh
+./install-homenetflix-ubuntu.sh
 ```
 Containers used
 *   [Homarr](https://github.com/ajnart/homarr)
