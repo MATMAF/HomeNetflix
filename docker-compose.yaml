@@ -1,4 +1,4 @@
-version: 3
+version: '3'
 services:
  homarr:
   container_name: homarr
@@ -12,12 +12,12 @@ services:
   restart: unless-stopped
  jellyfin:
   container_name: jellyfin
-  image: jellyfin/jellyfin
+  image: jellyfin/jellyfin:latest
   network_mode: host
   volumes:
    - /docker/jellyfin/config:/config
-   - /docker/jellyfin/cache:/cache    
-   - /media:/media   
+   - /docker/jellyfin/cache:/cache
+   - /docker/media:/media   
   restart: unless-stopped
  portainer:
   container_name: portainer
@@ -30,32 +30,18 @@ services:
   restart: always
  transmission:
   container_name: transmission
-  image: 	lscr.io/linuxserver/transmission:latest
+  image: lscr.io/linuxserver/transmission:latest
   ports:
    - 9091:9091
    - 51413:51413
    - 51413:51413/udp
   volumes:
    - /docker/transmission/config:/config
-   - /media:/downloads
+   - /docker/media:/downloads
   environment:
    - PUID=1000
    - PGID=1000
-##########################################################
-#                                                        #
-#                CHANGE USER AND PASSWORD                #
-#                                                        #
-##########################################################
-   - USER=admin
-   - PASS=Pa$$w0rd
   restart: unless-stopped
-##########################################################
-#                  BEFORE INSTALLATION                   #
-#                                                        #
-#     git clone https://github.com/ole-vi/webssh.git     #
-#                       cd webssh                        #
-#                docker build -t webssh .                #
-##########################################################
  webssh:
   container_name: webssh
   image: webssh

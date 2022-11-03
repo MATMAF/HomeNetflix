@@ -1,0 +1,1 @@
+HomeNetflix is a jellyfin media server
