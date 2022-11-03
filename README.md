@@ -18,7 +18,7 @@ chmod +x installer-homenetflix-ubuntu.sh
 ./installer-homenetflix-ubuntu.sh
 ```
 Containers used
-*   [Homarr](https://github.com/ajnart/homarr)
+* [Homarr](https://github.com/ajnart/homarr)
 * [Jellyfin](https://jellyfin.org/)
 * [Portainer](https://www.portainer.io/)
 * [Transmission](https://transmissionbt.com/)

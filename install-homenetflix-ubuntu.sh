@@ -9,12 +9,6 @@ fi
 #variables
 hostname=$(hostname -I)
 
-# Move homarr config
-mkdir /docker
-mkdir /docker/jellyfin
-mkdir /docker/jellyfin/config
-mv ./homarr/config.json /docker/jellyfin/config
-
 # Create webssh image
 git clone https://github.com/ole-vi/webssh.git
 cd webssh
