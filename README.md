@@ -1,6 +1,7 @@
 # HomeNetflix
-HomeNetflix is for Ubuntu.
-
+Current system supproted :
+* Ubuntu
+* Debian
 ## Install
 First you have to use sudo
 ```bash
