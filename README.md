@@ -1,5 +1,6 @@
 # HomeNetflix
-Current system supproted :
+## Requirments
+Current system supported :
 * Ubuntu
 * Debian
 ## Install
