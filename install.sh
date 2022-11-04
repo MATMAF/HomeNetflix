@@ -45,7 +45,7 @@ then
 
     # Install Docker Engine
     apt-get update
-    apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin
+    apt-get install docker-ce docker-ce-cli containerd.io docker-compose-plugin -y
 else
     echo "Your distribution is not supported"
     exit
