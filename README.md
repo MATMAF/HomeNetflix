@@ -6,20 +6,14 @@ First you have to use sudo
 ```bash
 sudo su
 ```
-Then, install docker and make it executable:
-```bash
+Then, clone the repository :
+```
 git clone https://github.com/MATMAF/HomeNetflix.git
 cd HomeNetflix
-chmod +x install-docker-ubuntu.sh
 ```
-```sh
-./install-docker-ubuntu.sh
+Now execute the script
 ```
-Now you have to run the containers
-```bash
-chmod +x install.sh
-```
-```sh
+chomd +x ./install.sh
 ./install.sh
 ```
 Containers used
