@@ -18,7 +18,7 @@ Now execute the script
 chmod +x ./install.sh
 ./install.sh
 ```
-Containers used
+## Containers
 * [Homarr](https://github.com/ajnart/homarr)
 * [Jellyfin](https://jellyfin.org/)
 * [Portainer](https://www.portainer.io/)
