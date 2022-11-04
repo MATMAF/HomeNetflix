@@ -18,6 +18,13 @@ Now execute the script
 chmod +x ./install.sh
 ./install.sh
 ```
+## Configuration
+First you have to go to your server : http://SERVER_IP
+
+Now you can add a service
+
+<img src="assets/add_services.png" alt="add services" width=500>
+
 ## Containers
 * [Homarr](https://github.com/ajnart/homarr)
 * [Jellyfin](https://jellyfin.org/)
