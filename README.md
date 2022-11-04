@@ -13,7 +13,7 @@ cd HomeNetflix
 ```
 Now execute the script
 ```
-chomd +x ./install.sh
+chmod +x ./install.sh
 ./install.sh
 ```
 Containers used
