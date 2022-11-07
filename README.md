@@ -1,5 +1,7 @@
 # HomeNetflix
 ## Requirments
+Package :
+* git
 Current system supported :
 * Ubuntu
 * Debian
